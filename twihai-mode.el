@@ -24,7 +24,7 @@
 
 ;;; Code:
 
-(requrie 'twittering-mode)
+(require 'twittering-mode)
 
 (defvar twihai-mode-map
   (let ((map (make-sparse-keymap)))
@@ -53,8 +53,8 @@
 
 (defun twihai-send-tweet ()
   (interactive)
+  (end-of-line)
   (save-excursion
-    (end-of-line)
     (let ((beg (point)))
       (cond
        ((search-backward tweet-border nil t)
