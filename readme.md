@@ -1,4 +1,3 @@
-Name
 ==== twihai-mode
 Date:14/11/11
 
