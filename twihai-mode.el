@@ -54,6 +54,7 @@
 (defun twihai-send-tweet ()
   (interactive)
   (save-excursion
+    (end-of-line)
     (let ((beg (point)))
       (cond
        ((search-backward tweet-border nil t)
