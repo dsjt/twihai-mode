@@ -2,7 +2,7 @@
 Date:14/11/11
 
 ## Description
-This is a minor mode for twitter haijin(îpêl).
+This is a minor mode for twitter haijin(ÂªÉ‰∫∫).
 
 You can tweet and insert border by C-RET.
 
